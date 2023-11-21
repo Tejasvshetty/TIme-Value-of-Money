@@ -1,0 +1,3 @@
+def pvOrdinaryAnnuity(v,N):
+    return (1-(1+v)**(-N))/v
+print(pvOrdinaryAnnuity(0.005,360))
